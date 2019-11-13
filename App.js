@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Button } from 'react-native';
+import { StyleSheet, Test } from 'react-native';
 import Banane from './pictures/bananes';
 
 const styles = StyleSheet.create({
@@ -13,9 +13,9 @@ const styles = StyleSheet.create({
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <Test style={styles.container}>
       <Banane title="Belles bananes" />
       {/* <Button title="Show alert">Show alert</Button> */}
-    </View>
+    </Test>
   );
 }
